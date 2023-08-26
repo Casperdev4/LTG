@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Informatrad / Acceuil</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="index.html"><img class="logo" src="./logo/informatrad 750.png" alt="Logo"></a>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="Informatique.html">Formations Informatiques</a>
+        <a href="Design.html">Formations Desing</a>
+        <a href="Trading.html">Trading</a>
+    </nav>
+    <div class="rectangle_bleu">
+        <p>Certifications:</p>
+        <div class="image_rectangle_bleu">
+            <img src="poleemploi.webp" alt="pole emploi">
+            <img src="cpf.webp" alt="cpf">
+            <img src="opco.webp" alt="opco">
+            <img src="qualiopi.webp" alt="qualiopi">
+        </div>
+    </div>
+    <h1>Informatrad vous propose des <br>
+        formations en Informatique,<br>
+        Design et trading</h1>
+    <div class="conteneur1">
+        <div class="d1"></div>
+    </div>
+    <div class="formation_trading">
+        <h2 class="h2-index">Les Formations Trading</h2>
+        <div class="imagetrading"><img src="trading.webp" alt="formation trading"></div>
+        <p>Les formations de trading sont conçues pour aider les traders débutants à comprendre les concepts clés du
+            trading. Cette formation aborde les fondamentaux des marchés financiers, tels que les devises, les matières
+            premières, les indices et les crypto-monnaies. Les participants apprendront les techniques de gestion des
+            risques, l'analyse technique et fondamentale et la mise en oeuvre de stratégies de trading rentables. En
+            suivant
+            cette formation, les traders débutants pourront développer leur conaissance du marché et améliorer leur
+            performance de trading. Les formations de trading sont une excelentes opportunité pour les personnes
+            intéressées
+            par le trading et qui souhaitent développer leurs compétences et maximiser leur potentiel gains.</p>
+        <a class="bouton_voir" href="Trading.html">Voir ></a>
+    </div>
+    <div class="formations_informatiques">
+        <hr class="hr" ALIGN=CENTER size="2" color="#162B6F">
+        <h2 class="h2-index">Les Formations Informatiques</h2>
+        <div class="imageinformatique"><img src="formationinformatique.webp" alt="formations informatique"></div>
+        <div class="bouton_cpf">éligible CPF</div>
+        <p>Les formations en informatiques offrent plusieurs avantages: elles permettent d'acquérir des compétences
+            technique solides pour développer des logiciels, des applications ou des systèmes informatiques. Elles
+            permettent également une compréhension approfondie des technologies numériques et des langages de
+            programmation,
+            ouvrant ainsi la voie à des opportunités professionnelles diverses et variées. De plus, ces formations
+            encouragent une approche analytique et logique des problèmes, essentielle dans le domaine de l'informatique.
+            Enfin, étantdonné la demande croissante de professionnels qualifiés dans le domaine de l'informatique, ces
+            formations offrent de bonnes perspectives d'emploi et de nombreuses possibilités de carrière.</p>
+        <a class="bouton_voir" href="informatique.html">Voir ></a>
+    </div>
+    <div class="formation_design">
+        <hr class="hr" ALIGN=CENTER size="2" color="#162B6F">
+        <h2 class="h2-index">Les Formations Desing</h2>
+        <div class="imagedesign"><img src="formationdesign.webp" alt="formations design"></div>
+        <div class="bouton_cpf">éligible CPF</div>
+        <p>La formation en design offre plusieurs avantages: elle permet de développer des compétences créatives et
+            techniques pour concevoir des produits, des espaces ou des expériences visuellement attrayants et
+            fonctionnels.
+            Elle favorise également une approche critique et réfléchie envers les problèmes de conception, encourage
+            ainsi
+            l'innovation et la résolution de problèmes. Enfin, une formation en design offre de nombreuses opportunités
+            professionnelles dans des domaines tels que l'architecture, le design d'interface utilisateur, et bien
+            d'autres
+            encore.</p>
+        <a class="bouton_voir" href="Design.html">Voir ></a>
+    </div>
+    <div class="contactez-nous">
+        <h1>Contactez-nous</h1>
+        <form action="/page-traitement-donnees" method="post">
+            <div class="texte-form">
+                <p><strong>E-mail</strong>: <a
+                        href="mailto:contact@informatrad.fr">contact@informatrad.fr</a><br><br><strong>Téléphone:
+                    </strong>06 67 87 98 98<br><br>
+            </div>
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Ex. Martin" required>
+            </div>
+            <div>
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+                <label for="numero">Votre numéro (facultatif)</label>
+                <input type="text" id="nom" name="nom" placeholder="Ex. 06 12 54..">
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Bonjour, j'aimerai être rappelé ...."
+                    required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer mon message</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

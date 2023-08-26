@@ -1,0 +1,516 @@
+h1,
+ul,
+p,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(69, 69, 139);
+    text-align: center;
+    font-weight: 500;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+ul {
+    color: rgb(42, 42, 83);
+
+}
+
+p {
+    color: rgb(69, 69, 139);
+    font-size: 17px;
+    font-weight: 350;
+    font-size: 18px;
+    margin-bottom: 7%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    color: rgb(69, 69, 139);
+    text-align: center;
+    margin-top: 3%;
+    font-weight: 550;
+    font-size: 21px;
+}
+
+.h2-index {
+    font-size: 30px;
+    font-weight: 350;
+    color: #5570B4;
+}
+
+h3 {
+    color: rgb(69, 69, 139);
+    text-align: center;
+    font-weight: 350;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+h4 {
+    color: rgb(69, 69, 139);
+
+}
+
+h5 {
+    color: rgb(69, 69, 139);
+    font-size: 18px;
+    text-align: right;
+
+}
+
+.rectangle_bleu {
+    position: relative;
+    background-color: #162B6F;
+    padding-bottom: 2%;
+}
+
+.rectangle_bleu p {
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.image_rectangle_bleu {
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 15%;
+}
+
+.image_rectangle_bleu img {
+    height: auto;
+    width: 100%;
+    margin-top: -6%;
+}
+
+nav {
+    text-align: right;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    margin-right: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(69, 69, 139);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .2em;
+    background: #162B6F;
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform .3s;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.bouton_voir {
+    background-color: rgb(15, 15, 49);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    margin-bottom: 7%;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bouton-cfd a {
+    background-color: rgb(21, 111, 255);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    margin-bottom: 7%;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bouton-cfd a:hover {
+    color: red;
+}
+
+.bouton_cpf {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-left: 80%;
+    border-radius: 30px;
+}
+
+.bouton-cpf {
+    background-color: rgb(226, 226, 226);
+    color: rgb(21, 111, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    margin-bottom: 7%;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+    border-color: black;
+    border-width: 1px;
+    border-style: dotted;
+}
+.bouton-cpf2 {
+    background-color: rgb(21, 111, 255);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    margin-bottom: 7%;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bouton-paiement {
+    background-color: rgb(66, 126, 255);
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-left: 45%;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.imagetrading {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.imagetrading img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.imageinformatique {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.imageinformatique img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.imagedesign {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.imagedesign img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.formations_informatiques p,
+.formation_design p,
+.formation_trading p {
+    padding-bottom: 17px;
+    margin-top: 5%;
+}
+
+.logo {
+    width: 320px;
+}
+
+.image_secuinfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.image_secuinfo img {
+    width: 520px;
+}
+
+.contactez-nous {
+    width: 90%;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 30px 0 30px;
+    background-color: #6e83b9;
+    margin-top: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactez-nous h1 {
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+}
+
+.contactez-nous p {
+    font-weight: 300;
+}
+
+form div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 5px;
+}
+
+form div>label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+}
+
+form div>input,
+form div>select,
+form div>textarea {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+form div>input,
+form div>select {
+    height: 25px;
+    padding-left: 10px;
+}
+
+form div>select {
+    appearance: none;
+    background-size: 15px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+}
+
+form div>textarea {
+    height: 80px;
+    padding: 15px 0px 0px 10px;
+}
+
+form div>input::placeholder,
+form div>textarea::placeholder {
+    color: rgb(181, 178, 178);
+}
+
+form div:last-child {
+    align-items: center;
+    margin-top: 25px;
+}
+
+form button {
+    width: 200px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 18px;
+    background: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+
+.texte-form {
+    float: right;
+}
+
+.texte-form p {
+    text-align: left;
+    margin-left: 15%;
+    color: black;
+}
+
+.hr {
+    margin-top: 10%;
+    width: 90%;
+}
+
+a:hover {
+    color: red;
+}
+
+.conteneur1 {
+    overflow: hidden;
+    max-width: 960px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    margin-bottom: 10%;
+}
+
+.d1 {
+    width: 3800px;
+    height: 300px;
+    background-color: #EDEDED;
+    background-image: url(tripleimageindex.jpg);
+    background-size: contain;
+    animation: defilement1 50s linear infinite;
+}
+
+@keyframes defilement1 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-2880px, 0);
+    }
+}
+
+.d1:hover {
+    animation-play-state: paused;
+}
+
+.conteneur2 {
+    overflow: hidden;
+    max-width: 960px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    margin-bottom: 10%;
+}
+
+.d2 {
+    width: 3800px;
+    height: 130px;
+    background-color: #EDEDED;
+    background-image: url(imagecpf123.jpg);
+    background-size: contain;
+    animation: defilement1 60s linear infinite;
+}
+
+@keyframes defilement1 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-2880px, 0);
+    }
+}
+
+.d2:hover {
+    animation-play-state: paused;
+}
+
+.page-trading h2 {
+    margin-bottom: 5%;
+    color: #162B6F;
+    font-size: 26px;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.page-trading h3 {
+    color: rgb(69, 69, 139);
+    text-align: left;
+    margin-left: 12%;
+}
+
+.page-trading h4 {
+    margin-left: 12%;
+    font-size: 22px;
+}
+
+.page-trading h5 {
+    text-align: left;
+    margin-left: 57%;
+    margin-top: -4%;
+}
+
+.page-trading p {
+    text-align: left;
+    margin-left: 57%;
+    margin-top: -2%;
+}
+
+.image-trading img {
+    width: 400px;
+    margin-left: 10%;
+}
+
+.texte-cfd {
+    margin-top: -39%;
+}
+
+.contenu-trading-cfd h2 {
+    margin-left: 22%;
+    font-size: 24px;
+    margin-top: 13%;
+}
+
+.contenu-trading-cfd p {
+    margin-left: 10%;
+    font-size: 20px;
+    color: #4a61ae;
+}
+
+.texte-intensive {
+    margin-top: -34%;
+}
