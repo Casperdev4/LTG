@@ -182,7 +182,11 @@ nav a:hover::after {
     margin-left: 80%;
     border-radius: 30px;
 }
-
+.bouton-cpf123 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bouton-cpf {
     background-color: rgb(226, 226, 226);
     color: rgb(21, 111, 255);
@@ -219,6 +223,43 @@ nav a:hover::after {
     margin-bottom: 7%;
     border-radius: 15px;
     font-family: Helvetica, sans-serif;
+}
+.bouton-cpf3 {
+    background-color: rgb(9, 172, 0);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    margin-bottom: 7%;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+}
+.bouton-cpf-paypal {
+    background-color: rgb(255, 243, 74);
+    color: rgb(21, 111, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    margin-bottom: 7%;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+    border-color: black;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .bouton-paiement {
