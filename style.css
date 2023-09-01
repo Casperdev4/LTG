@@ -330,104 +330,6 @@ nav a:hover::after {
     width: 520px;
 }
 
-.contactez-nous {
-    width: 90%;
-    border: 1px solid;
-    border-radius: 8px;
-    padding: 0 30px 0 30px;
-    background-color: #6e83b9;
-    margin-top: 17%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contactez-nous h1 {
-    font-weight: 500;
-    color: black;
-    font-size: 25px;
-}
-
-.contactez-nous p {
-    font-weight: 300;
-}
-
-form div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    min-height: 83px;
-    margin-top: 5px;
-}
-
-form div>label {
-    margin-bottom: 7px;
-    font-weight: 600;
-    font-family: Helvetica, sans-serif;
-}
-
-form div>input,
-form div>select,
-form div>textarea {
-    background: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: Helvetica, sans-serif;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-}
-
-form div>input,
-form div>select {
-    height: 25px;
-    padding-left: 10px;
-}
-
-form div>select {
-    appearance: none;
-    background-size: 15px;
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
-    background-position: right 10px top 50%;
-    background-repeat: no-repeat;
-}
-
-form div>textarea {
-    height: 80px;
-    padding: 15px 0px 0px 10px;
-}
-
-form div>input::placeholder,
-form div>textarea::placeholder {
-    color: rgb(181, 178, 178);
-}
-
-form div:last-child {
-    align-items: center;
-    margin-top: 25px;
-}
-
-form button {
-    width: 200px;
-    height: 50px;
-    font-weight: 300;
-    font-size: 18px;
-    background: white;
-    border: black solid 1px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    color: black;
-}
-
-.texte-form {
-    float: right;
-}
-
-.texte-form p {
-    text-align: left;
-    margin-left: 15%;
-    color: black;
-}
 
 .hr {
     margin-top: 10%;
@@ -554,4 +456,66 @@ a:hover {
 
 .texte-intensive {
     margin-top: -34%;
+}
+
+.formu-contact {
+    width: 100%;
+    height: 65vh;
+    background-color: #162B6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    background-image: url(img-formu.png);
+}
+
+
+.formu {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 620px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formu h2 {
+    color: #5a5a5a;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.formu input,
+textarea {
+    border: 0;
+    margin: 10px 0;
+    padding-left: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.formu ::placeholder {
+    font-size: 18px;
+
+}
+
+.formu button {
+    padding: 15px;
+    background: #0cbcf2;
+    color: #EDEDED;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
 }
