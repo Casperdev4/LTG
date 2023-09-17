@@ -66,8 +66,6 @@ h5 {
 
 }
 
-
-/* Basic style */
 :root {
     --font-size: 1rem;
 }
@@ -105,7 +103,7 @@ ul {
     font-size: 0.8rem;
     background: var(--navbar-bg-color);
     color: var(--navbar-color);
-    background-color: #162B6F;
+    background-color: #FFF;
 
 }
 
@@ -336,11 +334,13 @@ ul {
     margin-left: 80%;
     border-radius: 30px;
 }
+
 .bouton-cpf123 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .bouton-cpf {
     background-color: rgb(226, 226, 226);
     color: rgb(21, 111, 255);
@@ -361,6 +361,7 @@ ul {
     border-width: 1px;
     border-style: dotted;
 }
+
 .bouton-cpf2 {
     background-color: rgb(21, 111, 255);
     color: white;
@@ -378,6 +379,7 @@ ul {
     border-radius: 15px;
     font-family: Helvetica, sans-serif;
 }
+
 .bouton-cpf3 {
     background-color: rgb(9, 172, 0);
     color: white;
@@ -395,6 +397,7 @@ ul {
     border-radius: 15px;
     font-family: Helvetica, sans-serif;
 }
+
 .bouton-cpf-paypal {
     background-color: rgb(255, 243, 74);
     color: rgb(21, 111, 255);
@@ -467,10 +470,6 @@ ul {
 .formation_trading p {
     padding-bottom: 17px;
     margin-top: 5%;
-}
-
-.logo {
-    width: 320px;
 }
 
 .image_secuinfo {
@@ -676,7 +675,14 @@ textarea {
 }
 
 /*  Small device */
-@media screen and (max-width:767.98px){
+@media screen and (max-width:767.98px) {
+
+    h1 {
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 28px;
+    }
+
     .navbar__links {
         overflow: hidden;
         display: flex;
@@ -803,5 +809,31 @@ textarea {
         transition: all 1.4s ease-out;
     }
 
-}
+    .rectangle_bleu {
+        width: 100%;
+    }
 
+    .image_rectangle_bleu {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width: 70%;
+        gap: 5%;
+    }
+
+    .image_rectangle_bleu img {
+        height: auto;
+        width: 30%;
+    }
+
+    .bouton_cpf {
+        background-color: black;
+        color: white;
+        width: fit-content;
+        padding: 5px 10px;
+        font-size: 15px;
+        margin-left: 70%;
+        border-radius: 20px;
+    }
+
+}
