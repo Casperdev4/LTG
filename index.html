@@ -14,7 +14,7 @@
     <div class="navigation2">
         <nav class="navbar light-mode" role="navigation">
             <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/LTG&CO750.png"
-                        alt="LTG"></a></div>
+                        alt="LTG-formation"></a></div>
             <ul class="navbar__links">
                 <li class="navbar__link first"><a href="index.html">Accueil</a></li>
                 <li class="navbar__link second"><a href="siteweb.html">Sites Web</a></li>
@@ -96,7 +96,36 @@
             <button type="envoyer">Envoyer</button>
         </form>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('mouseover', activeLink));
+    </script>
+    <script> function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            const burger = document.querySelector('.burger');
 
+            burger.addEventListener('click', (e) => {
+                navbar.classList.toggle('show-nav');
+            });
+            // bonus
+            const navbarLinks = document.querySelectorAll('.navbar a');
+            navbarLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    navbar.classList.toggle('show-nav');
+                });
+            })
+
+        }
+        toggleMenu();
+    </script>
 </body>
 
 </html>
