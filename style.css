@@ -846,6 +846,12 @@ textarea {
 
     .rectangle_bleu {
         width: 100%;
+        padding-bottom: 4%;
+    }
+
+    .rectangle_bleu p {
+        font-size: 14px;
+
     }
 
     .image_rectangle_bleu {
@@ -864,7 +870,8 @@ textarea {
     .imagetrading {
         display: flex;
         justify-content: center;
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     
     .imagetrading img {
@@ -875,7 +882,8 @@ textarea {
     .imageinformatique {
         display: flex;
         justify-content: center;
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     
     .imageinformatique img {
@@ -886,7 +894,8 @@ textarea {
     .imagedesign {
         display: flex;
         justify-content: center;
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     
     .imagedesign img {
