@@ -682,11 +682,12 @@ textarea {
     h1 {
         margin-left: 2%;
         margin-right: 2%;
-        font-size: 28px;
+        font-size: 25px;
     }
 
     h2 {
-        font-size: 20px;
+        margin-top: 5%;
+        font-size: 18px;
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -696,8 +697,25 @@ textarea {
         font-size: 23px;
     }
 
+    h3 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .hr {
+        margin-top: 17%;
+    }
+
     p {
         font-size: 17px;
+        margin-top: 10%;
+    }
+
+    .navigation2 {
+        font-size: var(--font-size);
+        font-family: 'Poppins', sans-serif;
+        margin-top: -5%;
+        margin-bottom: -10%;
     }
 
     .navbar__links {
@@ -746,7 +764,8 @@ textarea {
     }
 
     .navbar__logo img {
-        height: 12em;
+        height: 13em;
+        margin-left: -5%;
     }
 
     .burger {
@@ -879,9 +898,10 @@ textarea {
         background-color: black;
         color: white;
         width: fit-content;
-        padding: 5px 10px;
+        padding: 5px 6px;
         font-size: 15px;
-        margin-left: 73%;
+        margin-left: 75%;
+        margin-bottom: 7%;
         border-radius: 20px;
     }
 
@@ -893,7 +913,7 @@ textarea {
     }
     
     .image_secuinfo img {
-        width: 85%;
+        width: 80%;
     }
 
     .bouton-cpf123-mob {
