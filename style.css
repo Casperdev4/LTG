@@ -693,6 +693,15 @@ textarea {
         margin-right: 3%;
     }
 
+    .h2-index {
+        color: rgb(69, 69, 139);
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
     .navbar__links {
         overflow: hidden;
         display: flex;
