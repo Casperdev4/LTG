@@ -1009,6 +1009,91 @@ textarea {
         border-style: dotted;
     }
 
+    .liens-utiles {
+        margin-bottom: 7%;
+    }
+
+    .liens-utiles a:hover {
+        color: #0cbcf2;
+
+    }
+
+    .liens-utiles h2 {
+        font-size: 25px;
+        margin-bottom: 4%;
+    }
+
+    .liens-utiles a {
+        text-decoration: none;
+        color: #555555;
+        display: block;
+        text-align: center;
+        margin-bottom: 2%;
+
+    }
+
+    .liens-utile2-container {
+        background-color: #8ae7d7;
+        padding: 4%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .liens-utiles2 {
+        width: 70%;
+        background-color: #fff;
+        padding-top: 1px;
+        padding-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+    }
+
+    .liens-utiles2 a:hover {
+        color: #0cbcf2;
+
+    }
+
+    .liens-utiles2 h2 {
+        font-size: 23px;
+        margin-bottom: 3%;
+    }
+
+    .liens-utiles2 a {
+        text-decoration: none;
+        color: #555555;
+        display: block;
+        text-align: center;
+        margin-bottom: 4%;
+
+    }
+
+
+.liens-utiles {
+        margin-bottom: 7%;
+    }
+
+    .liens-utiles a:hover {
+        color: #0cbcf2;
+
+    }
+
+    .liens-utiles h2 {
+        font-size: 25px;
+        margin-bottom: 4%;
+    }
+
+    .liens-utiles a {
+        text-decoration: none;
+        color: #555555;
+        display: block;
+        text-align: center;
+        margin-bottom: 2%;
+
+    }
+
+
+
     .bouton-cpf123 {
         display: none;
     }
