@@ -56,7 +56,6 @@ h3 {
 
 h4 {
     color: rgb(69, 69, 139);
-
 }
 
 h5 {
@@ -253,7 +252,6 @@ ul {
 .navbar__link:hover>a::after {
     width: 50%;
 }
-
 
 .rectangle_bleu {
     position: relative;
@@ -842,6 +840,39 @@ textarea {
     .image_rectangle_bleu img {
         height: auto;
         width: 30%;
+    }
+
+    .imagetrading {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    
+    .imagetrading img {
+        width: 60%;
+        border-radius: 48%;
+    }
+    
+    .imageinformatique {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    
+    .imageinformatique img {
+        width: 60%;
+        border-radius: 48%;
+    }
+    
+    .imagedesign {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    
+    .imagedesign img {
+        width: 60%;
+        border-radius: 48%;
     }
 
     .bouton_cpf {
