@@ -103,7 +103,7 @@ ul {
     font-size: 0.8rem;
     background: var(--navbar-bg-color);
     color: var(--navbar-color);
-    background-color: #FFF;
+    background-color: #ffbd59;
 
 }
 
@@ -220,7 +220,6 @@ ul {
 .show-nav .bar::after {
     transform: rotate(-45deg);
 }
-
 
 .show-nav .first {
     transition: all 1s ease-out;
@@ -787,7 +786,6 @@ textarea {
     .show-nav .bar::after {
         transform: rotate(-45deg);
     }
-
 
     .show-nav .first {
         transition: all 1s ease-out;
