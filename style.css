@@ -482,8 +482,9 @@ ul {
     width: 520px;
 }
 
-
 .hr {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10%;
     width: 90%;
 }
@@ -672,6 +673,11 @@ textarea {
     border-radius: 30px;
 }
 
+.bouton-cpf123-mob {
+    display: none;
+}
+
+
 /*  Small device */
 @media screen and (max-width:767.98px) {
 
@@ -679,6 +685,12 @@ textarea {
         margin-left: 2%;
         margin-right: 2%;
         font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
     .navbar__links {
@@ -829,8 +841,107 @@ textarea {
         width: fit-content;
         padding: 5px 10px;
         font-size: 15px;
-        margin-left: 70%;
+        margin-left: 73%;
         border-radius: 20px;
+    }
+
+    .image_secuinfo {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .image_secuinfo img {
+        width: 85%;
+    }
+
+    .bouton-cpf123-mob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bouton-cpf-mob {
+        background-color: rgb(226, 226, 226);
+        color: rgb(21, 111, 255);
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+        border-color: black;
+        border-width: 1px;
+        border-style: dotted;
+    }
+    
+    .bouton-cpf2-mob {
+        background-color: rgb(21, 111, 255);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+    }
+    
+    .bouton-cpf3-mob {
+        background-color: rgb(9, 172, 0);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .bouton-cpf-paypal {
+        background-color: rgb(255, 243, 74);
+        color: rgb(21, 111, 255);
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+        border-color: black;
+        border-width: 1px;
+        border-style: dotted;
+    }
+
+    .bouton-cpf123 {
+        display: none;
     }
 
 }
