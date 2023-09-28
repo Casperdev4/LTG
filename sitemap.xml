@@ -2,70 +2,70 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
-<loc>https://webprime.fr/index.html</loc>
+<loc>https://ltg.fr/index.html</loc>
     <image:image>
-        <image:loc>https://www.webprime.fr/siteweb.jpg</image:loc>
+        <image:loc>https://www.ltg.fr/siteweb.jpg</image:loc>
         <image:caption>image-creation-sites-web</image:caption>
         <image:title>creation-sites-web</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/referencement-seo.jpg</image:loc>
+        <image:loc>https://www.ltg.fr/referencement-seo.jpg</image:loc>
         <image:caption>image-referencement-seo</image:caption>
         <image:title>referencement-seo</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/google-page-speed-insights.png</image:loc>
+        <image:loc>https://www.ltg.fr/google-page-speed-insights.png</image:loc>
         <image:caption>image-google-page-speed-insights</image:caption>
         <image:title>google-page-speed-insights</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/page-speed-insights.png</image:loc>
+        <image:loc>https://www.ltg.fr/page-speed-insights.png</image:loc>
         <image:caption>image-google-page-speed-insights</image:caption>
         <image:title>google-page-speed-insights</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/siteweb.html</loc>
+<loc>https://ltg.fr/Informatique.html</loc>
     <image:image>
-        <image:loc>https://www.webprime.fr/site-vitrine.png</image:loc>
+        <image:loc>https://www.ltg.fr/site-vitrine.png</image:loc>
         <image:caption>image-site-vitrine</image:caption>
         <image:title>site-vitrine</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/site-catalogue.png</image:loc>
+        <image:loc>https://www.ltg.fr/site-catalogue.png</image:loc>
         <image:caption>image-site-catalogue</image:caption>
         <image:title>site-catalogue</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/site-e-commerce.png</image:loc>
+        <image:loc>https://www.ltg.fr/site-e-commerce.png</image:loc>
         <image:caption>image-site-e-commerce</image:caption>
         <image:title>site-e-commerce</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/seo.html</loc>
+<loc>https://ltg.fr/Design.html</loc>
     <image:image>
-        <image:loc>https://www.webprime.fr/ads.webp</image:loc>
+        <image:loc>https://www.ltg.fr/ads.webp</image:loc>
         <image:caption>image-google-ads</image:caption>
         <image:title>google-ads</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/tarif.html</loc>
+<loc>https://ltg.fr/tarif.html</loc>
 </url>
 
 <url>
-<loc>https://webprime.fr/tel:0767930456</loc>
+<loc>https://wltg.fr/tel:0767930456</loc>
 </url>
 
 <url>
-<loc>https://webprime.fr/Mentionslegales.html</loc>
+<loc>https://ltg.fr/Mentionslegales.html</loc>
 </url>
 
 <url>
-<loc>https://webprime.fr/CGV.html</loc>
+<loc>https://ltg.fr/CGV.html</loc>
 </url>
 </urlset>
