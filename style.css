@@ -873,31 +873,31 @@ textarea {
         margin-top: 10%;
         margin-bottom: 10%;
     }
-    
+
     .imagetrading img {
         width: 60%;
         border-radius: 48%;
     }
-    
+
     .imageinformatique {
         display: flex;
         justify-content: center;
         margin-top: 10%;
         margin-bottom: 10%;
     }
-    
+
     .imageinformatique img {
         width: 60%;
         border-radius: 48%;
     }
-    
+
     .imagedesign {
         display: flex;
         justify-content: center;
         margin-top: 10%;
         margin-bottom: 10%;
     }
-    
+
     .imagedesign img {
         width: 60%;
         border-radius: 48%;
@@ -920,7 +920,7 @@ textarea {
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    
+
     .image_secuinfo img {
         width: 80%;
     }
@@ -930,7 +930,7 @@ textarea {
         align-items: center;
         justify-content: center;
     }
-    
+
     .bouton-cpf-mob {
         background-color: rgb(226, 226, 226);
         color: rgb(21, 111, 255);
@@ -951,7 +951,7 @@ textarea {
         border-width: 1px;
         border-style: dotted;
     }
-    
+
     .bouton-cpf2-mob {
         background-color: rgb(21, 111, 255);
         color: white;
@@ -969,7 +969,7 @@ textarea {
         border-radius: 15px;
         font-family: Helvetica, sans-serif;
     }
-    
+
     .bouton-cpf3-mob {
         background-color: rgb(9, 172, 0);
         color: white;
@@ -1069,7 +1069,7 @@ textarea {
     }
 
 
-.liens-utiles {
+    .liens-utiles {
         margin-bottom: 7%;
     }
 
@@ -1092,7 +1092,16 @@ textarea {
 
     }
 
+    .img-qualiopi {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: -3%;
+    }
 
+    .img-qualiopi img {
+        width: 90%;
+    }
 
     .bouton-cpf123 {
         display: none;
