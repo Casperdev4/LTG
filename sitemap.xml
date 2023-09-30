@@ -4,65 +4,112 @@
 <url>
 <loc>https://ltg.fr/index.html</loc>
     <image:image>
-        <image:loc>https://www.ltg.fr/siteweb.jpg</image:loc>
-        <image:caption>image-creation-sites-web</image:caption>
-        <image:title>creation-sites-web</image:title>
+        <image:loc>https://www.ltg.fr/trading.webp</image:loc>
+        <image:caption>image-trading</image:caption>
+        <image:title>formation-trading</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.ltg.fr/referencement-seo.jpg</image:loc>
-        <image:caption>image-referencement-seo</image:caption>
-        <image:title>referencement-seo</image:title>
+        <image:loc>https://www.ltg.fr/formationinformatique.webp</image:loc>
+        <image:caption>image-formation-informatique</image:caption>
+        <image:title>formation-informatique</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.ltg.fr/google-page-speed-insights.png</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
+        <image:loc>https://www.ltg.fr/formationdesign.webp</image:loc>
+        <image:caption>image-formation-design</image:caption>
         <image:title>google-page-speed-insights</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.ltg.fr/page-speed-insights.png</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
-        <image:title>google-page-speed-insights</image:title>
+        <image:loc>https://www.ltg.fr/qualiopigui.webp</image:loc>
+        <image:caption>image-qualiopi</image:caption>
+        <image:title>qualiopi</image:title>
     </image:image>
 </url>
 
 <url>
 <loc>https://ltg.fr/Informatique.html</loc>
     <image:image>
-        <image:loc>https://www.ltg.fr/site-vitrine.png</image:loc>
-        <image:caption>image-site-vitrine</image:caption>
-        <image:title>site-vitrine</image:title>
+        <image:loc>https://www.ltg.fr/secuinfo.webp</image:loc>
+        <image:caption>image-cyber-securite</image:caption>
+        <image:title>cyber-securite</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.ltg.fr/site-catalogue.png</image:loc>
-        <image:caption>image-site-catalogue</image:caption>
-        <image:title>site-catalogue</image:title>
+        <image:loc>https://www.ltg.fr/technicien-informatique.webp</image:loc>
+        <image:caption>image-technicien-informatique</image:caption>
+        <image:title>technicien-informatique</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/concepteur.webp</image:loc>
+        <image:caption>image-concepteur-developpeur-application</image:caption>
+        <image:title>concepteur-developpeur-application</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/developpeur-web.webp</image:loc>
+        <image:caption>image-developpeur-web</image:caption>
+        <image:title>developpeur-web</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/c++.webp</image:loc>
+        <image:caption>image-langage-c++</image:caption>
+        <image:title>langage-c++</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/python.webp</image:loc>
+        <image:caption>image-langage-python</image:caption>
+        <image:title>langage-python</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/html.webp</image:loc>
+        <image:caption>image-langage-html</image:caption>
+        <image:title>langage-html</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/javascript.webp</image:loc>
+        <image:caption>image-javascript</image:caption>
+        <image:title>javascript</image:title>
     </image:image>
         <image:image>
         <image:loc>https://www.ltg.fr/site-e-commerce.png</image:loc>
-        <image:caption>image-site-e-commerce</image:caption>
-        <image:title>site-e-commerce</image:title>
+        <image:caption>image-php-sql</image:caption>
+        <image:title>php-sql</image:title>
     </image:image>
 </url>
 
 <url>
 <loc>https://ltg.fr/Design.html</loc>
     <image:image>
-        <image:loc>https://www.ltg.fr/ads.webp</image:loc>
-        <image:caption>image-google-ads</image:caption>
-        <image:title>google-ads</image:title>
+        <image:loc>https://www.ltg.fr/concepteurdesigner1.webp</image:loc>
+        <image:caption>image-concepteur-designer</image:caption>
+        <image:title>concepteur-designer</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/concepteurdesigner2.webp</image:loc>
+        <image:caption>image-concepteur-designer</image:caption>
+        <image:title>concepteur-designer</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/infographiste1.webp</image:loc>
+        <image:caption>image-infographiste</image:caption>
+        <image:title>infographiste</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/formationdesign.webp</image:loc>
+        <image:caption>image-infographiste</image:caption>
+        <image:title>infographiste</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.ltg.fr/infographiste3.webp</image:loc>
+        <image:caption>image-infographiste</image:caption>
+        <image:title>infographiste</image:title>
     </image:image>
 </url>
 
-<url>
-<loc>https://ltg.fr/tarif.html</loc>
-</url>
 
 <url>
 <loc>https://wltg.fr/tel:0767930456</loc>
 </url>
 
 <url>
-<loc>https://ltg.fr/Mentionslegales.html</loc>
+<loc>https://ltg.fr/mentionslegales.html</loc>
 </url>
 
 <url>
