@@ -220,19 +220,19 @@ ul {
 }
 
 .show-nav .second {
-    transition: all 1.1s ease-out;
-}
-
-.show-nav .third {
-    transition: all 1.2s ease-out;
-}
-
-.show-nav .four {
     transition: all 1.3s ease-out;
 }
 
+.show-nav .third {
+    transition: all 1.6s ease-out;
+}
+
+.show-nav .four {
+    transition: all 1.9s ease-out;
+}
+
 .show-nav .fifth {
-    transition: all 1.4s ease-out;
+    transition: all 2.2s ease-out;
 }
 
 .navbar__link>a::after {
@@ -890,19 +890,19 @@ textarea {
     }
 
     .show-nav .second {
-        transition: all 1.1s ease-out;
-    }
-
-    .show-nav .third {
-        transition: all 1.2s ease-out;
-    }
-
-    .show-nav .four {
         transition: all 1.3s ease-out;
     }
 
+    .show-nav .third {
+        transition: all 1.6s ease-out;
+    }
+
+    .show-nav .four {
+        transition: all 1.9s ease-out;
+    }
+
     .show-nav .fifth {
-        transition: all 1.4s ease-out;
+        transition: all 2.2s ease-out;
     }
 
     .rectangle_bleu {
