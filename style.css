@@ -272,7 +272,7 @@ ul {
 }
 
 .image_rectangle_bleu img {
-    height: auto;
+    height: 50%;
     width: 100%;
     margin-top: -6%;
 }
