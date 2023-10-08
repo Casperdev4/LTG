@@ -732,7 +732,10 @@ textarea {
     width: 50%;
 }
 
-.bouton-cpf123-mob, .bouton-cpf2-mob, .bouton-cpf-mob, .bouton-cpf3-mob {
+.bouton-cpf123-mob,
+.bouton-cpf2-mob,
+.bouton-cpf-mob,
+.bouton-cpf3-mob {
     display: none;
 }
 
