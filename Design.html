@@ -22,21 +22,37 @@
 </head>
 
 <body>
-    <div class="navigation2">
-        <nav class="navbar light-mode" role="navigation">
-            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/LTG&CO750.png"
-                        alt="formation-informatique-design"></a></div>
-            <ul class="navbar__links">
-                <li class="navbar__link first"><a href="index.html">Accueil</a></li>
-                <li class="navbar__link second"><a href="Informatique.html">Informatique</a></li>
-                <li class="navbar__link third"><a href="Design.html">Design</a></li>
-                <li class="navbar__link four"><a href="">À Propos</a></li>
-            </ul>
-            <button class="burger">
-                <span class="bar"></span>
-            </button>
-        </nav>
-    </div>
+    <nav class="navbar">
+        <img src="LTG&CO750.png" alt="Logo de votre site" class="logo">
+        <label for="btn" class="icon">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="80" height="11"></rect>
+                <rect y="26" width="80" height="11"></rect>
+                <rect y="52" width="80" height="11"></rect>
+            </svg>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <label for="btn2" class="show">Formations +</label>
+                <input type="checkbox" id="btn2">
+                <ul class="dropdown">
+                    <li class="drop-item">
+                        <a href="informatique.html">Informatique</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="design.html">Design</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
     <div class="conteneur2">
         <div class="d2"></div>
     </div>
