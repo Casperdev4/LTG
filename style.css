@@ -9,32 +9,88 @@ h5 {
 }
 
 
-@media screen and (min-width: 768px) {
-    .icon {
-        display: none;
-    }
-
-    .nav-menu {
-        display: initial;
-        position: static;
-    }
-
-    .nav-item {
-        display: inline-block;
-        margin-left: 20px;
-        position: relative;
-    }
-
-    .dropdown {
-        position: absolute;
-        background-color: black;
-        top: 70px;
-        right: 0;
-        padding-right: 40px;
-        width: max-content;
-    }
-
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    margin-top: 16%;
+}
+
+.navbar {
+    background-color: #ffbd59;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 11%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+    min-height: 150px;
+    margin-left: 10%;
+}
+
+
+.icon {
+    fill: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.navbar input,
+.nav-menu,
+.dropdown {
+    display: none;
+}
+
+[id^=btn]:checked+ul {
+    display: block;
+}
+
+.nav-menu {
+    background-color: #ffbd59;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    top: 100%;
+}
+
+.nav-item a,
+.drop-item a,
+.show {
+    color: #000000;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 1.2rem;
+    line-height: 3;
+    margin-left: 4%;
+}
+
+.drop-item a {
+    margin-left: 8%;
+    font-size: 1rem;
+}
+
+.nav-menu a:hover,
+.show:hover {
+    color: #ffffff;
+}
+
 
 h1 {
     color: rgb(69, 69, 139);
@@ -90,13 +146,6 @@ h5 {
     font-size: 18px;
     text-align: right;
 
-}
-
-* {
-    box-sizing: border-box;
-    outline: none;
-    margin: 0;
-    padding: 0;
 }
 
 .rectangle_bleu {
@@ -296,27 +345,6 @@ h5 {
     text-align: center;
     margin-top: 4%;
 
-}
-
-.bouton-cpf-paypal {
-    background-color: rgb(255, 243, 74);
-    color: rgb(21, 111, 255);
-    text-decoration: none;
-    padding: 10px 15px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-    margin-bottom: 7%;
-    border-radius: 15px;
-    font-family: Helvetica, sans-serif;
-    border-color: black;
-    border-width: 1px;
-    border-style: dotted;
 }
 
 .bouton-paiement {
@@ -601,7 +629,7 @@ textarea {
     /*  Navigation */
 
     .navbar {
-        background-color: #162B6F;
+        background-color: #ffffff;
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -611,16 +639,19 @@ textarea {
         left: 0;
         right: 0;
         z-index: 1000;
+        height: 11%;
     }
 
     .logo {
-        height: 50px;
         display: flex;
         align-items: center;
+        max-height: 160px;
+        min-height: 160px;
+        margin-left: -10%;
     }
-    
+
     .icon {
-        fill: #ffffff;
+        fill: rgb(69, 69, 139);
         cursor: pointer;
         display: flex;
         align-items: center;
@@ -637,7 +668,7 @@ textarea {
     }
 
     .nav-menu {
-        background-color: #162B6F;
+        background-color: rgb(69, 69, 139);
         position: absolute;
         top: 70px;
         left: 0;
@@ -653,12 +684,12 @@ textarea {
         line-height: 70px;
         font-size: 1.2rem;
         line-height: 3;
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     .drop-item a {
-        margin-left: 6%;
-        font-size: 1.1rem;
+        margin-left: 8%;
+        font-size: 1rem;
     }
 
     .nav-menu a:hover,
@@ -799,7 +830,6 @@ textarea {
         margin-right: auto;
         white-space: nowrap;
         margin-bottom: 7%;
-        border-radius: 15px;
         font-family: Helvetica, sans-serif;
         border-color: black;
         border-width: 1px;
@@ -820,7 +850,6 @@ textarea {
         margin-right: auto;
         white-space: nowrap;
         margin-bottom: 7%;
-        border-radius: 15px;
         font-family: Helvetica, sans-serif;
     }
 
@@ -838,29 +867,7 @@ textarea {
         margin-right: auto;
         white-space: nowrap;
         margin-bottom: 7%;
-        border-radius: 15px;
         font-family: Helvetica, sans-serif;
-    }
-
-    .bouton-cpf-paypal {
-        background-color: rgb(255, 243, 74);
-        color: rgb(21, 111, 255);
-        text-decoration: none;
-        padding: 10px 15px;
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        white-space: nowrap;
-        margin-bottom: 7%;
-        border-radius: 15px;
-        font-family: Helvetica, sans-serif;
-        border-color: black;
-        border-width: 1px;
-        border-style: dotted;
     }
 
     .liens-utiles {
