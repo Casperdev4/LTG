@@ -646,6 +646,24 @@ a:hover {
         color: red;
     }
 
+    .conteneur1 {
+        overflow: hidden;
+        max-width: 960px;
+        margin: 50px auto;
+        box-shadow: 0px 15px 10px -5px #777;
+        margin-top: 15%;
+        margin-bottom: 20%;
+    }
+    
+    .d1 {
+        width: 3800px;
+        height: 200px;
+        background-color: #EDEDED;
+        background-image: url(tripleimageindex.jpg);
+        background-size: contain;
+        animation: defilement1 50s linear infinite;
+    }
+
     h1 {
         margin-left: 2%;
         margin-right: 2%;
