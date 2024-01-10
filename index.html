@@ -23,7 +23,9 @@
 
 <body>
     <nav class="navbar">
-        <img src="LTG&CO750.png" alt="Logo de votre site" class="logo">
+        <a href="index.html" class="logo-link">
+            <img src="LTG&CO750.png" alt="" class="logo">
+        </a> 
         <label for="btn" class="icon">
             <svg viewBox="0 0 100 80" width="40" height="40">
                 <rect width="70" height="11"></rect>
@@ -133,14 +135,38 @@
             professionnelle</strong>. Elle s'assure que ces organismes respectent des normes de qualité spécifiques pour offrir
             des formations de <strong>haute qualité</strong> et adaptées aux besoins des apprenants.</p>
     </div>
-    <div class="formu-contact">
-        <form class="formu">
-            <h2>Contactez-nous <br>Posez-nous toutes vos questions.</h2>
-            <input type="text" style="width:330px;" id="name" placeholder="Nom" required>
-            <input type="email" style="width:330px;" id="email" placeholder="Email" required>
-            <input type="text" style="width:330px;" id="name" placeholder="Téléphone" required>
-            <textarea id="message" style="width:330px;" rows="4" placeholder="Pouvons-nous vous aider ?"></textarea>
-            <button type="envoyer">Envoyer</button>
+    <div class="form-container">
+        <h3>CONTACTEZ - NOUS</h3>
+        <form action="traitement.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="nom" required>
+    
+            <label for="email">E-mail :</label>
+            <input type="text" id="email" name="e-mail" required>
+    
+            <label for="tel">Téléphone :</label>
+            <input type="text" id="tel" name="telephone" required>
+    
+            <label for="services">Formations :</label>
+            <select id="services" name="services" required>
+                <option value="SECURITE INFORMATIQUE">SECURITE INFORMATIQUE</option>
+                <option value="TECHNICIEN D'ASSISTANCE BC02">TECHNICIEN D'ASSISTANCE BC02</option>
+                <option value="CONCEPTEUR D'APPLICATION - BC01">CONCEPTEUR D'APPLICATION - BC01</option>
+                <option value="CONCEPTEUR D'APPLICATION - BC02">CONCEPTEUR D'APPLICATION - BC02</option>
+                <option value="CONCEPTEUR D'APPLICATION - BC03">CONCEPTEUR D'APPLICATION - BC03</option>
+                <option value="DEVELOPPEUR WEB - BC01">DEVELOPPEUR WEB - BC01</option>
+                <option value="DEVELOPPEUR WEB - BC02">DEVELOPPEUR WEB - BC02</option>
+                <option value="C++">C++</option>
+                <option value="PYTHON">PYTHON</option>
+                <option value="HTML - CSS">HTML - CSS</option>
+                <option value="JAVASCRIPT">JAVASCRIPT</option>
+                <option value="CONCEPTEUR DESIGNER UI - BC01">CONCEPTEUR DESIGNER UI - BC01</option>
+                <option value="CONCEPTEUR DESIGNER UI - BC03">CONCEPTEUR DESIGNER UI - BC03</option>
+                <option value="INFOGRAPHISTE - BC01">INFOGRAPHISTE - BC01</option>
+                <option value="INFOGRAPHISTE - BC02">INFOGRAPHISTE - BC02</option>
+                <option value="INFOGRAPHISTE - BC03">INFOGRAPHISTE - BC03</option>
+            </select>
+            <button type="submit">ENVOYER</button>
         </form>
     </div>
     <div class="liens-utiles">
