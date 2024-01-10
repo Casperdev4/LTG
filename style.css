@@ -397,6 +397,10 @@ h5 {
 .formation_trading p {
     padding-bottom: 17px;
     margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .image_secuinfo {
@@ -874,15 +878,19 @@ a:hover {
 
     }
 
+    .qualiopi {
+        margin-top: 15%;
+    }
+
     .img-qualiopi {
         display: flex;
         justify-content: center;
         margin-top: 5%;
-        margin-bottom: -3%;
+        margin-bottom: -5%;
     }
 
     .img-qualiopi img {
-        width: 90%;
+        width: 80%;
     }
 
     .bouton-cpf123 {
