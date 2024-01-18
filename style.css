@@ -90,7 +90,6 @@ body {
     color: #ffffff;
 }
 
-
 h1 {
     color: rgb(69, 69, 139);
     text-align: center;
@@ -112,6 +111,8 @@ p {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    line-height: 1.5;
+    word-spacing: 4px;
 }
 
 h2 {
