@@ -20,7 +20,7 @@ body {
 }
 
 .navbar {
-    background-color: #ffbd59;
+    background-color: #ffffff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,6 @@ body {
     margin-left: 10%;
 }
 
-
 .icon {
     fill: #000000;
     cursor: pointer;
@@ -61,7 +60,7 @@ body {
 }
 
 .nav-menu {
-    background-color: #ffbd59;
+    background-color: #ffffff;
     position: absolute;
     top: 70px;
     left: 0;
@@ -87,7 +86,7 @@ body {
 
 .nav-menu a:hover,
 .show:hover {
-    color: #ffffff;
+    color: #ab0000;
 }
 
 h1 {
