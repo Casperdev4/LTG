@@ -235,7 +235,6 @@ h5 {
     margin-right: auto;
     white-space: nowrap;
     border-radius: 15px;
-    font-family: Helvetica, sans-serif;
     border-color: black;
     border-width: 1px;
     border-style: dotted;
@@ -255,7 +254,6 @@ h5 {
     margin-right: auto;
     white-space: nowrap;
     border-radius: 15px;
-    font-family: Helvetica, sans-serif;
 }
 
 .bouton-cpf3 {
@@ -272,7 +270,6 @@ h5 {
     margin-right: auto;
     white-space: nowrap;
     border-radius: 15px;
-    font-family: Helvetica, sans-serif;
 }
 
 .liens-utiles a:hover {
@@ -762,7 +759,7 @@ a:hover {
         color: rgb(21, 111, 255);
         text-decoration: none;
         padding: 10px 15px;
-        font-size: 18px;
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -771,9 +768,9 @@ a:hover {
         margin-right: auto;
         white-space: nowrap;
         margin-bottom: 7%;
-        font-family: Helvetica, sans-serif;
         border-color: black;
         border-width: 1px;
+        border-radius: 15px;
         border-style: dotted;
     }
 
@@ -782,7 +779,7 @@ a:hover {
         color: white;
         text-decoration: none;
         padding: 10px 15px;
-        font-size: 18px;
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -791,7 +788,7 @@ a:hover {
         margin-right: auto;
         white-space: nowrap;
         margin-bottom: 7%;
-        font-family: Helvetica, sans-serif;
+        border-radius: 15px;
     }
 
     .bouton-cpf3-mob {
@@ -799,7 +796,7 @@ a:hover {
         color: white;
         text-decoration: none;
         padding: 10px 15px;
-        font-size: 18px;
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -808,7 +805,7 @@ a:hover {
         margin-right: auto;
         white-space: nowrap;
         margin-bottom: 7%;
-        font-family: Helvetica, sans-serif;
+        border-radius: 15px;
     }
 
     .liens-utiles h2 {
