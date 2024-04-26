@@ -140,9 +140,7 @@ body {
    .histoire {
    background-color:#000e51;
    padding:2%;
-   width:80%;
-   box-shadow:2px 3px 0 2px #ffa929;
-   border-radius:20px 20px 20px 0;
+   width:100%;
    margin:10% auto
    }
    
@@ -158,22 +156,18 @@ body {
    #tarif {
    background-color:#000e51;
    padding:1%;
-   width:80%;
-   box-shadow:2px 3px 0 2px #ffa929;
-   border-radius:20px 20px 20px 0;
+   width:100%;
    margin:10% auto
    }
    
    .valeur {
    background-color:#000e51;
-   width:90%;
+   width:100%;
    margin-left:auto;
    margin-right:auto;
-   box-shadow:2px 3px 0 2px #ffa929;
    opacity:0;
    transform:translateX(-50%);
    transition:opacity 0.5s,transform 1s;
-   border-radius:20px 20px 20px 0
    }
    
    .valeur.slide-in-done {
@@ -181,8 +175,7 @@ body {
    transform:translateX(0)
    }
    
-   .valeur
-   .confiance {
+   .valeur .confiance {
    display:flex;
    align-items:center;
    margin-top:5%;
@@ -192,15 +185,12 @@ body {
    text-align:left
    }
    
-   .valeur
-   .confiance
-   ion-icon {
+   .valeur .confiance ion-icon {
    margin-left:4%;
    margin-top:2%
    }
    
-   .valeur
-   h3 {
+   .valeur h3 {
    display:flex;
    align-items:center;
    color:#ff9f0f;
@@ -209,8 +199,7 @@ body {
    margin-bottom:0
    }
    
-   .valeur
-   h4 {
+   .valeur h4 {
    color:#fff;
    font-size:20px;
    text-align:left;
@@ -218,8 +207,7 @@ body {
    margin-top:3%
    }
    
-   .valeur
-   p {
+   .valeur p {
    margin-left:0;
    color:#fff;
    font-size:16px;
@@ -227,8 +215,6 @@ body {
    margin-top:0
    }
    
-   #tarif
-   h4
    .image-index {
    background-image:url(img-index.jpg);
    background-size:cover;
@@ -243,8 +229,7 @@ body {
    justify-content:center
    }
    
-   .image-index
-   h1 {
+   .image-index h1 {
    color:#02003c;
    width:80%;
    margin-top:auto
@@ -304,21 +289,17 @@ body {
    background-color:#000e51
    }
    
-   #contact
-   h4 {
+   #contact h4 {
    margin-bottom:3%
    }
    
-   .liens
-   a {
+   .liens a {
    margin:0;
    color:#fff;
    font-size:16px
    }
    
-   .liens-wp
-   a,.liens-wp
-   p {
+   .liens-wp a,.liens-wp p {
    color:#fff;
    font-size:12px
    }
@@ -333,8 +314,7 @@ body {
    margin-bottom:10%
    }
    
-   .bouton-devis1
-   ion-icon {
+   .bouton-devis1 ion-icon {
    font-size:20px
    }
    
@@ -364,9 +344,7 @@ body {
    background-color:#000e51
    }
    
-   @media
-   screen
-   and (max-width:767.98px) {
+   @media screen and (max-width:767.98px) {
    h1 {
    text-align:center;
    font-weight:550;
@@ -409,10 +387,7 @@ body {
    padding:2%
    }
    
-   .histoire
-   p,#tarif
-   p,.valeur
-   p {
+   .histoire p,#tarif p,.valeur p {
    color:#fff
    }
    
@@ -477,14 +452,12 @@ body {
    margin-left:5%
    }
    
-   .drop-item
-   a {
+   .drop-item a {
    margin-left:10%;
    font-size:1rem
    }
    
-   .nav-menu
-   a:hover,.show:hover {
+   .nav-menu a:hover,.show:hover {
    color:#ffbd59
    }
    
@@ -501,11 +474,7 @@ body {
    align-items:center;
    justify-content:center
    }
-   
-   .histoire {
-   width:95%
-   }
-   
+      
    .histoire,#prestation,#realisation,#nos-valeurs {
    margin-top:15%
    }
@@ -517,7 +486,6 @@ body {
    #tarif {
    margin-top:15%;
    margin-bottom:15%;
-   width:95%
    }
    
    #nos-valeurs {
@@ -526,17 +494,14 @@ body {
    
    .valeur {
    background-color:#000e51;
-   width:95%;
    padding-left:3%;
    padding-right:3%;
    margin-bottom:10%;
    margin-left:auto;
    margin-right:auto;
-   box-shadow:2px 3px 0 2px #ffa929;
    opacity:0;
    transform:translateX(-50%);
    transition:opacity 0.5s,transform 1s;
-   border-radius:20px 20px 20px 0
    }
    
    .valeur
@@ -551,8 +516,7 @@ body {
    }
    
    .valeur
-   .confiance
-   ion-icon {
+   .confiance ion-icon {
    margin-top:2%;
    font-size:25px
    }
@@ -569,8 +533,7 @@ body {
    margin-left:1%
    }
    
-   .valeur
-   h4 {
+   .valeur h4 {
    color:#fff;
    font-size:15px;
    text-align:left;
@@ -578,8 +541,7 @@ body {
    margin-top:3%
    }
    
-   .valeur
-   p {
+   .valeur p {
    margin-left:0;
    color:#fff;
    font-size:15px;
@@ -595,8 +557,7 @@ body {
    align-items:center
    }
    
-   .icon-anime
-   h3 {
+   .icon-animeh3 {
    font-size:17px;
    opacity:0;
    transform:translateY(50px);
@@ -604,8 +565,7 @@ body {
    margin-top:5%
    }
    
-   .icon-anime
-   h3.slide-up,.bouton-devis3.slide-up {
+   .icon-animeh3.slide-up,.bouton-devis3.slide-up {
    opacity:1;
    transform:translateY(0)
    }
@@ -623,7 +583,6 @@ body {
    img {
    width:100%;
    height:240px;
-   opacity:.8
    }
    
    .icon-item1
