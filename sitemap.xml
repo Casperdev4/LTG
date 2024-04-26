@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+<url>
+<loc>https://chauffeur-prive-75.fr</loc>
+   <image:image>
+       <image:loc>https://chauffeur-prive-75.fr/paris.webp</image:loc>
+       <image:title>chauffeur-prive-paris</image:title>
+       <image:caption>Découvrez la majesté de la Tour Eiffel éclairée la nuit, un symbole emblématique de la ville de Paris.</image:caption>
+   </image:image>
+   <geo:geo>
+       <geo:format>decimal</geo:format>
+       <geo:latitude>48.8566</geo:latitude>
+       <geo:longitude>2.3522</geo:longitude>
+   </geo:geo>
+       <geo:region>ile-de-france</geo:region>
+       <geo:placename>Paris</geo:placename>
+       <geo:position>48.8566;2.3522</geo:position>
+</url>
+
+</urlset>
