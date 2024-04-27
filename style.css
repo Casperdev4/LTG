@@ -213,7 +213,7 @@ body {
    margin-top:0
    }
    
-   .image-index {
+   .image-index, .image-index2, .image-index3, .image-index4, .image-index5 {
    background-image:url(img-index.jpg);
    background-size:cover;
    background-position:center;
@@ -227,10 +227,14 @@ body {
    justify-content:center
    }
    
-   .image-index h1 {
+   .image-index h1, .image-index2 h1, .image-index3 h1, .image-index4 h1, .image-index5 h1 {
    color:#02003c;
    width:80%;
    margin-top:auto
+   }
+
+   .image-index2 {
+      background-image:url(commerce-vente.jpg);
    }
    
    .icon-anime {
@@ -455,7 +459,7 @@ body {
    color:#ffbd59
    }
    
-   .image-index {
+   .image-index, .image-index2, .image-index3, .image-index4, .image-index5 {
    background-image:url(img-index.jpg);
    background-size:cover;
    background-position:center;
