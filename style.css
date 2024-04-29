@@ -576,7 +576,7 @@ h4 {
       align-items: center
    }
 
-   .icon-animeh3 {
+   .icon-anime h3 {
       font-size: 17px;
       opacity: 0;
       transform: translateY(50px);
@@ -584,7 +584,7 @@ h4 {
       margin-top: 5%
    }
 
-   .icon-animeh3.slide-up,
+   .icon-anime h3.slide-up,
    .bouton-devis3.slide-up {
       opacity: 1;
       transform: translateY(0)

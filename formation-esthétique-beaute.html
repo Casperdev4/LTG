@@ -274,32 +274,24 @@
             });
     </script>
     <script>
-        document.addEventListener('DOMContentLoaded',
-            function () {
-                const
-                    options = {
-                        root:
-                            null,
-                        rootMargin:
-                            '0px',
-                        threshold:
-                            0.8
-                    };
-                const
-                    observer =
-                        new
-                            IntersectionObserver(entries => {
-                                entries.forEach(entry => {
-                                    if (entry.isIntersecting) {
-                                        entry.target.classList.add('slide-up');
-                                    }
-                                });
-                            }, options); const elements =
-                                document.querySelectorAll('.icon-animeh3, .bouton-devis3');
-                elements.forEach(element => {
-                    observer.observe(element);
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.8
+            };
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-up');
+                    }
                 });
+            }, options);
+            const elements = document.querySelectorAll('.icon-anime h3, .bouton-devis3, .icon-anime-pc h3');
+            elements.forEach(element => {
+                observer.observe(element);
             });
+        });
     </script>
 </body>
 
