@@ -70,7 +70,6 @@ body {
    }
    
    .drop-item a {
-   margin-left:8%;
    font-size:1rem;
    }
    
@@ -446,10 +445,9 @@ body {
    .nav-menu {
    background-color:#fff;
    position:absolute;
-   top:70px;
    left:0;
    right:0;
-   top:100%
+   top:98%
    }
    
    .nav-item a,.drop-item a,.show {
@@ -460,7 +458,6 @@ body {
    }
    
    .drop-item a {
-   margin-left:10%;
    font-size:1rem
    }
    
