@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="développeur web, conception de sites web, développement d'applications, site vitrine, site e-commerce, site catalogue, référencement naturel">
+    <meta name="keywords"
+        content="développeur web, conception de sites web, développement d'applications, site vitrine, site e-commerce, site catalogue, référencement naturel">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Bienvenue chez WebPrime, votre partenaire pour des sites web sur mesure. Experts en Référencement naturel et Google Ads. Nous boostons votre visibilité en ligne.">
+    <meta name="description"
+        content="Bienvenue chez WebPrime, votre partenaire pour des sites web sur mesure. Experts en Référencement naturel et Google Ads. Nous boostons votre visibilité en ligne.">
     <link href="style.css" rel="stylesheet">
     <title>Centre de Formation Professionnels | Ile de france</title>
     <link rel="icon" type="image/x-icon" href="https://webprime.fr/logo/favicon.ico">
@@ -77,27 +79,27 @@
         </div>
     </div>
     <div class="contenu">
-        <h2>CERTIFIE QUALIOPI</h2>
+        <h2>CERTIFICATION QUALIOPI</h2>
         <p>
-            Notre entreprise s'engage à offrir à chaque client une expérience exceptionnelle grâce à une équipe de
-            professionnels hautement qualifiés. Nos artisans chevronnés, spécialisés dans la peinture, le ravalement, la
-            rénovation et la maçonnerie, sont déterminés à transformer vos idées en réalité. Forts d'une expertise
-            solide, ils sont guidés par l'excellence et la passion pour leur métier. En plus de notre équipe dévouée,
-            nous investissons continuellement dans des équipements modernes et innovants. Cela nous permet de rester à
-            la pointe de l'industrie et d'assurer des résultats de haute qualité et d'optimiser l'efficacité de chaque
-            projet.
+            Chez <strong>LTG & CO</strong>, nous sommes fiers de vous annoncer que nous sommes <strong>certifiés
+                Qualiopi</strong>, une reconnaissance officielle de notre engagement envers la qualité et l'excellence
+            dans la
+            formation professionnelle. Cette certification atteste que notre centre répond aux exigences strictes
+            définies par l'État en matière de qualité des prestations de formation. Pour nos clients, cela représente
+            l'assurance de bénéficier de formations de haute qualité, conçues pour répondre aux besoins du marché et des
+            entreprises.
         </p>
     </div>
     <div id="tarif">
         <h1>NOS TARIFS</h1>
-        <h4>COMPÉTITIFS</h4>
-        <p>Nous aspirons à
-            offrir à chaque client une expérience unique, caractérisée par un accompagnement personnalisé
-            tout au long de son projet, ainsi que par l'exécution méticuleuse de travaux spécifiques, voire
-            exceptionnels. Nous accordons une importance particulière à expliquer, encadrer et à vous offrir une
-            transparence maximale concernant nos tarifs et nos services.
+        <h4>FORMATIONS GRATUITES</h4>
+        <p>Nos formations sont entièrement <strong>gratuites</strong> pour votre entreprise, grâce au financement pris en
+            charge par votre <strong>OPCO</strong>. Cela signifie que vous pouvez développer les compétences de vos collaborateurs sans
+            supporter de coûts supplémentaires. Les frais de formation sont entièrement couverts par l'OPCO, vous
+            permettant ainsi de maximiser le développement professionnel au sein de votre entreprise sans impacter votre
+            budget.
         </p>
-        <a class="bouton-devis2" href="tel:0909090990">EN SAVOIR PLUS</a>
+        <a class="bouton-devis2" href="tel:0909090990">CONTACTEZ - NOUS</a>
     </div>
     <div class="contenu">
         <h2>POURQUOI CHOISIR
@@ -180,13 +182,13 @@
                 document.querySelectorAll('.list');
         function
             activeLink() {
-            list.forEach((item)=>
+            list.forEach((item) =>
                 item.classList.remove('active'));
             this.classList.add('active');
         }
-        list.forEach((item)=>
+        list.forEach((item) =>
 
-            item.addEventListener('mouseover',activeLink));
+            item.addEventListener('mouseover', activeLink));
     </script>
     <script>
         document.addEventListener("DOMContentLoaded",
@@ -197,12 +199,15 @@
                 var
                     navLinks =
                         document.querySelectorAll(".nav-menu a");
-               navLinks.forEach(function
-                            (link) {
-                            link.addEventListener("click",
-                                function () {
-                                    menuToggle.checked
-                                        = false;});}); });
+                navLinks.forEach(function
+                    (link) {
+                    link.addEventListener("click",
+                        function () {
+                            menuToggle.checked
+                                = false;
+                        });
+                });
+            });
     </script>
     <script>
         document.addEventListener('DOMContentLoaded',
@@ -257,22 +262,24 @@
                         rootMargin:
                             '0px',
                         threshold:
-                            0.8};
+                            0.8
+                    };
                 const
                     observer =
                         new
-                            IntersectionObserver(entries=> {
-                                entries.forEach(entry=> {
+                            IntersectionObserver(entries => {
+                                entries.forEach(entry => {
                                     if (entry.isIntersecting) {
                                         entry.target.classList.add('slide-up');
                                     }
                                 });
-                            }, options);const elements =
-                        document.querySelectorAll('.icon-animeh3, .bouton-devis3');
-               elements.forEach(element=> {
-                            observer.observe(element);
-                        });
+                            }, options); const elements =
+                                document.querySelectorAll('.icon-animeh3, .bouton-devis3');
+                elements.forEach(element => {
+                    observer.observe(element);
+                });
             });
     </script>
 </body>
+
 </html>
