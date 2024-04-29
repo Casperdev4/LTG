@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="développeur web, conception de sites web, développement d'applications, site vitrine, site e-commerce, site catalogue, référencement naturel">
+    <meta name="keywords"
+        content="développeur web, conception de sites web, développement d'applications, site vitrine, site e-commerce, site catalogue, référencement naturel">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Bienvenue chez WebPrime, votre partenaire pour des sites web sur mesure. Experts en Référencement naturel et Google Ads. Nous boostons votre visibilité en ligne.">
+    <meta name="description"
+        content="Bienvenue chez WebPrime, votre partenaire pour des sites web sur mesure. Experts en Référencement naturel et Google Ads. Nous boostons votre visibilité en ligne.">
     <link href="style.css" rel="stylesheet">
     <title>Centre de Formation Professionnels | Ile de france</title>
     <link rel="icon" type="image/x-icon" href="https://webprime.fr/logo/favicon.ico">
@@ -91,8 +93,10 @@
     <div id="tarif">
         <h1>NOS TARIFS</h1>
         <h4>FORMATIONS GRATUITES</h4>
-        <p>Nos formations sont entièrement <strong>gratuites</strong> pour votre entreprise, grâce au financement pris en
-            charge par votre <strong>OPCO</strong>. Cela signifie que vous pouvez développer les compétences de vos collaborateurs sans
+        <p>Nos formations sont entièrement <strong>gratuites</strong> pour votre entreprise, grâce au financement pris
+            en
+            charge par votre <strong>OPCO</strong>. Cela signifie que vous pouvez développer les compétences de vos
+            collaborateurs sans
             supporter de coûts supplémentaires. Les frais de formation sont entièrement couverts par l'OPCO, vous
             permettant ainsi de maximiser le développement professionnel au sein de votre entreprise sans impacter votre
             budget.
@@ -100,15 +104,13 @@
         <a class="bouton-devis2" href="tel:0909090990">CONTACTEZ - NOUS</a>
     </div>
     <div class="contenu">
-        <h2>POURQUOI CHOISIR
-            BH BATIMENT POUR VOS TRAVAUX DANS L'ILES DE FRANCE ?</h2>
+        <h2>POURQUOI SE FORMER DANS LA VENTE ET LE COMMERCE ?</h2>
         <p>
-            Lorsque vous envisagez des travaux de construction, de rénovation ou de réhabilitation en Île-de-France,
-            choisir BH Bâtiment est choisir l'excellence et la tranquillité d'esprit. Notre entreprise se distingue par
-            son engagement inébranlable envers la qualité, la fiabilité et la satisfaction client. Avec des années
-            d'expérience dans la peinture, le ravalement, la rénovation et la maçonnerie, nous avons forgé une
-            réputation solide basée sur l'expertise de notre équipe dévouée. Chez BH Bâtiment, chaque projet est traité
-            avec le plus grand soin, du début à la fin.
+            Choisir une formation en commerce et vente offre de belles opportunités pour développer des compétences en
+            négociation, relation client et techniques de vente, tout en améliorant ses capacités de communication et de
+            persuasion, utiles dans de nombreux domaines professionnels. Les métiers du commerce offrent des débouchés
+            variés et évolutifs dans différents secteurs, permettant de rester à jour avec les dernières technologies et
+            tendances du marché grâce à des formations modernes axées sur l'innovation.
         </p>
     </div>
     <h2 id="realisation">RÉALISATIONS</h2>
@@ -135,17 +137,6 @@
             maçonnerie. Leur engagement envers se reflète dans chaque projet que nous entreprenons.
         </p>
 
-    </div>
-    <div class="contenu">
-        <h2>NOS CONTRATS VOUS
-            LIBÈRENT DE TOUT SOUCI</h2>
-        <p>
-            Avec nos contrats sur mesure, libérez-vous de toute inquiétude lors de vos projets de peinture, ravalement,
-            rénovation, et maçonnerie. Chez [Nom de l'entreprise], nous comprenons l'importance de garantir la
-            tranquillité d'esprit à nos clients. Nos contrats sont conçus pour offrir une transparence totale,
-            détaillant chaque étape du processus, les délais et les coûts associés. Nous nous engageons à vous fournir
-            un service fiable et de haute qualité, éliminant tout souci lié à vos projets.
-        </p>
     </div>
     <div id="contact">
         <h4>HORAIRES</h4>
@@ -180,13 +171,13 @@
                 document.querySelectorAll('.list');
         function
             activeLink() {
-            list.forEach((item)=>
+            list.forEach((item) =>
                 item.classList.remove('active'));
             this.classList.add('active');
         }
-        list.forEach((item)=>
+        list.forEach((item) =>
 
-            item.addEventListener('mouseover',activeLink));
+            item.addEventListener('mouseover', activeLink));
     </script>
     <script>
         document.addEventListener("DOMContentLoaded",
@@ -197,12 +188,15 @@
                 var
                     navLinks =
                         document.querySelectorAll(".nav-menu a");
-               navLinks.forEach(function
-                            (link) {
-                            link.addEventListener("click",
-                                function () {
-                                    menuToggle.checked
-                                        = false;});}); });
+                navLinks.forEach(function
+                    (link) {
+                    link.addEventListener("click",
+                        function () {
+                            menuToggle.checked
+                                = false;
+                        });
+                });
+            });
     </script>
     <script>
         document.addEventListener('DOMContentLoaded',
@@ -257,22 +251,24 @@
                         rootMargin:
                             '0px',
                         threshold:
-                            0.8};
+                            0.8
+                    };
                 const
                     observer =
                         new
-                            IntersectionObserver(entries=> {
-                                entries.forEach(entry=> {
+                            IntersectionObserver(entries => {
+                                entries.forEach(entry => {
                                     if (entry.isIntersecting) {
                                         entry.target.classList.add('slide-up');
                                     }
                                 });
-                            }, options);const elements =
-                        document.querySelectorAll('.icon-animeh3, .bouton-devis3');
-               elements.forEach(element=> {
-                            observer.observe(element);
-                        });
+                            }, options); const elements =
+                                document.querySelectorAll('.icon-animeh3, .bouton-devis3');
+                elements.forEach(element => {
+                    observer.observe(element);
+                });
             });
     </script>
 </body>
+
 </html>
