@@ -239,6 +239,12 @@ body {
    .image-index3 {
       background-image:url(informatique.jpg);
    }
+   .image-index4 {
+      background-image:url(batiment.jpg);
+   }
+   .image-index5 {
+      background-image:url(sante.jpg);
+   }
    
    .icon-anime {
    display:flex;
