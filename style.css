@@ -219,7 +219,7 @@ h4 {
 .image-index2,
 .image-index3,
 .image-index4,
-.image-index5 {
+.image-index5, .image-index6 {
    background-image: url(img-index.jpg);
    background-size: cover;
    background-position: center;
@@ -237,7 +237,7 @@ h4 {
 .image-index2 h1,
 .image-index3 h1,
 .image-index4 h1,
-.image-index5 h1 {
+.image-index5 h1, .image-index6 h1 {
    color: #02003c;
    width: 80%;
    margin-top: auto
@@ -257,6 +257,10 @@ h4 {
 
 .image-index5 {
    background-image: url(sante.jpg);
+}
+
+.image-index6 {
+   background-image: url(beaute.jpg);
 }
 
 .icon-anime {
@@ -484,7 +488,7 @@ h4 {
    .image-index2,
    .image-index3,
    .image-index4,
-   .image-index5 {
+   .image-index5, .image-index6 {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
