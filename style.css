@@ -88,7 +88,7 @@ body{margin-top:18%}
 .bouton-devis1 ion-icon{font-size:20px}
 .bouton-devis2{padding:3%;margin:5% 25% 7%}
 .bouton-devis3{display:flex;justify-content:center;color:#fff;padding:2%;text-decoration:none;opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;margin:5% 15% 10%}
-.realisation img{width:75%;height:auto;margin:0 2%}
+.realisation img{width:65%;height:auto;}
 #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}
 #contact h4{margin-bottom:5%}
 #contact p{text-align:center;margin:0;margin-bottom:3%;color:#fff}
