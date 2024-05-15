@@ -220,7 +220,7 @@ h4 {
 .image-index3,
 .image-index4,
 .image-index5, .image-index6 {
-   background-image: url(img-index.jpg);
+   background-image: url(img-index.webp);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -244,23 +244,23 @@ h4 {
 }
 
 .image-index2 {
-   background-image: url(commerce-vente.jpg);
+   background-image: url(commerce-vente.webp);
 }
 
 .image-index3 {
-   background-image: url(informatique.jpg);
+   background-image: url(informatique.webp);
 }
 
 .image-index4 {
-   background-image: url(batiment.jpg);
+   background-image: url(batiment.webp);
 }
 
 .image-index5 {
-   background-image: url(sante.jpg);
+   background-image: url(sante.webp);
 }
 
 .image-index6 {
-   background-image: url(beaute.jpg);
+   background-image: url(beaute.webp);
 }
 
 .icon-anime {
