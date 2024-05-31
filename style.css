@@ -12,7 +12,7 @@ body{margin:0;padding:0;font-family:'Roboto',sans-serif;background-color:#fff;ma
 h1{text-align:center;font-weight:550;font-size:55px;margin-bottom:5%;margin-top:5%;color:#01002c}
 p{color:#02003c;font-size:18px;margin-left:5%;margin-right:5%;text-align:center;padding:2%;line-height:1.7;word-spacing:4px}
 .strong-color{color:#07103b}
-h2{color:#01002c;text-align:center;margin-top:10%;margin-left:3%;margin-right:3%;font-size:80px;font-weight:530}
+h2{color:#01002c;text-align:center;margin-top:10%;margin-left:3%;margin-right:3%;font-size:40px;font-weight:530}
 h3{color:#02003c;text-align:center;font-weight:200;font-size:15px;margin-top:3%}
 h4{text-align:center;font-size:20px;font-weight:350;color:#ff9f0f;margin:5% 3%}
 .hr{margin:auto;margin-top:5%;width:90%}
