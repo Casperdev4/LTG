@@ -26,6 +26,34 @@ h4{text-align:center;font-size:20px;font-weight:350;color:#ff9f0f;margin:5% 3%}
 .valeur h3{display:flex;align-items:center;color:#fff;font-size:30px;text-align:left;margin-bottom:0}
 .valeur h4{color:#fff;font-size:20px;text-align:left;margin-bottom:0;margin-top:3%}
 .valeur p{margin-left:0;color:#fff;font-size:16px;text-align:left;margin-top:0}
+.container-index {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .container-index .text {
+    text-align: center;
+  }
+  .image {
+    width: 40%;
+    margin-left: 5%;
+    height: auto;
+  }
+  .container-index2 {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .image2 {
+    width: 40%;
+    height: auto;
+    margin-right: 5%;
+  }
+  .container-index2 .text2 {
+    text-align: center;
+  }
 .image-index,.image-index2,.image-index3,.image-index4,.image-index5,.image-index6{background-image:url(img-index.webp);background-size:cover;background-position:center;background-repeat:no-repeat;height:650px;position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .image-index h1,.image-index2 h1,.image-index3 h1,.image-index4 h1,.image-index5 h1,.image-index6 h1{color:#02003c;width:80%;margin-top:auto}
 .image-index2{background-image:url(commerce-vente.webp)}
@@ -49,6 +77,8 @@ h4{text-align:center;font-size:20px;font-weight:350;color:#ff9f0f;margin:5% 3%}
 .bouton-devis2{display:flex;justify-content:center;background-color:#8e1212;color:#fff;padding:2%;border-radius:25px;text-decoration:none;margin:2% 35%}
 .bouton-devis3{display:flex;justify-content:center;background-color:#8e1212;color:#fff;padding:2%;text-decoration:none;border-radius:25px;margin:2% 15%}
 .bouton-devis1:hover,.bouton-devis2:hover{background-color:#000e51}
+.icon-anime{display: none;}
+
 @media screen and (max-width:767.98px) {
 h1{text-align:center;font-weight:550;font-size:30px;margin-bottom:5%;margin-top:5%;color:#01002c}
 h2{color:#01002c;text-align:center;margin-top:10%;margin-bottom:10%;font-size:35px;font-weight:530}
@@ -95,4 +125,5 @@ body{margin-top:18%}
 .contact-icon{display:flex;position:fixed;padding:1%;padding-left:2%;padding-right:2%;background-color:#8e1212;right:4%;bottom:5%;border-radius:20px}
 .contact-icon a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}
 .liens-wp a,.liens-wp p{font-size:12px}
+.container-index,.container-index2{display: none;}
 }
