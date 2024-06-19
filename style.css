@@ -107,7 +107,7 @@ body{margin-top:18%}
 .valeur h4{color:#fff;font-size:15px;text-align:left;margin-bottom:0;margin-top:3%}
 .valeur p{margin-left:0;color:#fff;font-size:15px;text-align:left;margin-top:3%;padding-bottom:5%;font-weight:100}
 .icon-anime{display:flex;flex-direction:column;align-items:center}
-.icon-anime h3{font-size:17px;opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;margin-top:5%}
+.icon-anime h3{font-size:17px;opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;margin-top:3%}
 .icon-anime h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
 .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin:5px 0;position:relative}
 .icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:100%;height:240px}
